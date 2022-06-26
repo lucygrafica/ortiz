@@ -1,0 +1,390 @@
+*{box-sizing: border-box;}
+
+.contenedor-general {width: 1140px;}
+
+
+body {font-family: 'Libre Baskerville', serif;}
+
+.contenedor-general {
+width: 1140px;
+margin: 0 auto;
+background-color: #fdf43b;
+padding: 15px;
+}
+
+nav {
+    background-color: #050505;
+padding: 0px 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.columnasnav {
+    display: flex;
+ 
+   align-items: center;
+ 
+}
+
+.contenedor-menu {
+   display: flex;
+   align-content: baseline;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+
+li {
+    display: inline;
+    justify-content: end;
+    margin: 5px;
+           }
+
+a {
+    text-decoration: none;
+    color: #f3f4f7;
+    font-size: 18px;
+    font-weight:bold;
+    
+}
+
+header {background-image: url(./Imagenes/fondo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin-bottom: -40px;
+    margin-top: -13px;
+    height: 430px;
+   }
+
+.columnas {
+    display: flex;
+ flex-direction: column;
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 140px;
+font-style: normal;
+letter-spacing: 5px;
+display: flex;
+    justify-content: center;
+color:black ;
+
+    }
+
+.sub {
+    font-weight: bold;        
+    font-size:35px;
+    color: #341e03;
+    width: 1080px;
+    margin-top: -75px;
+    display: flex;
+    justify-content: center;
+    }
+
+.contenedor-nosotros {
+    background-color: #030303;    
+    margin-top: 21px;
+    margin-bottom: 0px;
+    height: 500px;
+    }
+    
+    .contenedor-parrafo {
+        display: inline;
+        padding: 20px 0px;
+    }
+  
+.carousel{
+    background-color: #020202;
+    margin-bottom: 0px;
+    height: 300px;
+    }
+
+.carousel__slide{
+    
+    padding-left: 0;
+    padding-right: 0;
+margin: 0;
+}
+
+.carousel__slide img{
+    max-width: 100%;
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+       
+}
+
+.titulo-amarillo {
+    padding-top: 2%;
+}
+
+h2 {
+    color: yellow;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+     }
+
+.somos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: flex-end;
+    color: white;
+}
+
+.somos {
+    font-size: 27px;
+    font-weight: 200;
+    width: 30%;
+    padding: 0px 30px;
+    }
+
+    .texto-largo{
+        font-size: 18px;
+        width: 48%;
+    }
+
+    .titulos-negro{
+        color: #020202;
+    }
+
+    .nos{
+        text-align: center;
+        font-size: 22px;
+        width: 1000px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+
+    }
+    .contenedor-servicios {
+      background-color: #fdf43b;
+        margin-bottom: -40px;
+        margin-top: -13px;
+        margin-bottom: 42px;
+        margin-top: -3px;
+        padding: 0px 0px;
+        border: 4px solid #030303;
+        height: 800px;
+    }
+
+.negro{
+    color: #020202;
+    font-size: 25px;
+    margin-bottom: 8px;
+    text-align: center;
+    display: flex;
+}
+
+.blanco{
+    color: #fbfafa;
+    font-size: 28px;
+    margin-bottom: 8px;
+    text-align: center;
+    display: flex;
+}
+
+.sub-titulo{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+
+
+    .servicioscont {
+        padding: 5px;
+
+    }
+
+.cajas-servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items:baseline;
+    }
+
+.portafolio-columnas{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+h3 {
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    color: #3a5185;
+}
+
+.logo-arq {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    }
+
+
+    .imagen-servicio {
+   
+    border-radius: 10px;
+         }
+
+
+
+    .descripcion-serv{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        
+        
+
+    }
+
+.Portafolio{
+    background-color:#0b0b0b;
+    margin:  -42px 0px;
+    padding: 100px 0px;
+    padding-top: 10px;
+    height: 1300px;
+   
+     }
+
+     .dos {
+         display: list-item;
+         font-size: 23px;    
+        color: #3a5185;
+     }
+
+     .columnas-Portafolio {
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+         margin: -39px 0px;
+         padding: 0px 97px;
+              }
+
+.Nuestro-Equipo {
+     background-color: #fdf43b;
+        margin-bottom: -2px;
+        padding: 0px 14px;
+        border: 4px solid #030303;
+        padding-bottom: 18px;
+        height: 1050px;
+        
+    }
+
+
+
+.Tres-columas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+    #contacto {
+        background-color: rgb(1, 0, 0);
+        padding: 48px;
+        margin-bottom: -1px;
+        color: white;
+        font-size: 18px;
+       
+        height: 800px;
+     }
+    
+     .form{
+        width: 900px;
+        margin: auto;
+    
+     }
+    
+     label, input{
+        display: block;
+        width: 35%;
+        margin: 10px;
+     }
+    
+     input{
+    height: 35px;
+    border: none;
+    outline: none;
+    }
+    
+     textarea{
+        display: block;
+        width: 90%;
+        margin: 15px 0;
+        margin-left: 10px;
+         }
+
+         .botones {
+            margin-left: 10PX;
+         }
+   
+    .texto-formulario {
+        margin-left: 10px;
+    }
+
+    
+
+
+
+  .contacto-redes {
+    background-color: #fdf43b;
+    margin-bottom: -2px;
+    padding: 0px 14px;
+    border: 4px solid #030303;
+    padding-bottom: 18px;
+      }  
+
+  .contactoRS {
+    display: flex;
+    align-content: baseline;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+
+  .RD { 
+  font-size: 40px;    
+  color: #050505;
+  font-weight: bolder;
+  }
+
+  p {
+      font-size: 20px;
+     
+  }
+
+.logolucy2 {
+    display: flex;
+padding-top: 0px;
+display: flex;
+justify-content: center;
+    
+}
+
+.blanco2{
+    color: #fbfafa;
+    margin-top: -6px;
+   text-align: center;
+  }
+
+  footer {
+      height: 142px;
+   
+      margin: auto;
+  }
+
